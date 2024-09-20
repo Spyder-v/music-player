@@ -1,0 +1,21 @@
+.cylinder
+{
+    position: absolute;
+    background: conic-gradient(purple 3.6deg,#ededed.0);
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  
+    border-radius: 0 0 50vh 50vh; 
+}
+.cylinder::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+  
+    border-radius: 0 0 50vh 50vh;  
+    background-color: yellow;
+}
